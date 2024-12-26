@@ -2,7 +2,6 @@
 ![0_jYj25BsFEbzd4MYx](https://github.com/user-attachments/assets/f40c8955-422a-499c-8199-a1dee6c2d854)
 
 ##
-<br>
 Apache APISIX provides rich traffic management features like Load Balancing, Dynamic Upstream, Canary Release, Circuit Breaking, Authentication, Observability
 
 ### Features

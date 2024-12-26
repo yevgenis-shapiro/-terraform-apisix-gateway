@@ -2,7 +2,6 @@
 ![0_jYj25BsFEbzd4MYx](https://github.com/user-attachments/assets/f40c8955-422a-499c-8199-a1dee6c2d854)
 
 ##
-✅ Apache APISIX provides rich traffic management features like Load Balancing, Dynamic Upstream, Canary Release, Circuit Breaking, Authentication, Observability
 
 ✅ API Gateway is a traffic entrance to process all business data, including dynamic routing, dynamic upstream, dynamic certificates, A/B testing, canary release, blue-green deployment, limit rate, defense against malicious attacks, metrics, monitoring alarms, service observability, service governance
 

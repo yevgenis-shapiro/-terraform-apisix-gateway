@@ -1,4 +1,4 @@
-## Kubernetes-Apisix-Cloud-Native API Gateway
+## Apache APISIX - Cloud Native API Gateway
 ![0_jYj25BsFEbzd4MYx](https://github.com/user-attachments/assets/f40c8955-422a-499c-8199-a1dee6c2d854)
 
 ##
@@ -7,11 +7,7 @@ Apache APISIX provides rich traffic management features like Load Balancing, Dyn
 ### Features
 
 ```
-You can use APISIX API Gateway as a traffic entrance to process all business data, including dynamic routing, dynamic upstream, dynamic certificates, A/B testing, canary release, blue-green deployment, limit rate, defense against malicious attacks, metrics, monitoring alarms, service observability, service governance.
-
-    All platforms
-        Cloud-Native: Platform agnostic, No vendor lock-in, APISIX API Gateway can run from bare-metal to Kubernetes.
-        Supports ARM64: Don't worry about the lock-in of the infra technology.
+APISIX API Gateway is a traffic entrance to process all business data, including dynamic routing, dynamic upstream, dynamic certificates, A/B testing, canary release, blue-green deployment, limit rate, defense against malicious attacks, metrics, monitoring alarms, service observability, service governance
 
     Multi protocols
         TCP/UDP Proxy: Dynamic TCP/UDP proxy.

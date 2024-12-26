@@ -8,53 +8,23 @@ API Gateway is a traffic entrance to process all business data, including dynami
 
 ### Features
 ```
-✅ Multi protocols
+✅ High Performance and Scalability:
+One of the most significant advantages of APISIX is its high performance and scalability. It can handle thousands of API requests per second, with latency measured in milliseconds. Its stateless architecture allows it to scale horizontally on cloud-native environments
 
-    TCP/UDP Proxy: Dynamic TCP/UDP proxy.
-    Dubbo Proxy: Dynamic HTTP to Dubbo proxy.
-    Dynamic MQTT Proxy: Supports to load balance MQTT by client_id, both support MQTT 3.1.*, 5.0.
-    gRPC proxy: Proxying gRPC traffic.
-    gRPC Web Proxy: Proxying gRPC Web traffic to gRPC Service.
-    gRPC transcoding: Supports protocol transcoding so that clients can access your gRPC API by using HTTP/JSON.
-    Proxy Websocket
-    Proxy Protocol
-    HTTP(S) Forward Proxy
-    SSL: Dynamically load an SSL certificate
-    HTTP/3 with QUIC
+✅ Dynamic Configuration:
+APISIX supports dynamic configuration and hot updates without the need for restarting the service. This feature is crucial for continuous integration and delivery (CI/CD) pipelines, ensuring minimal downtime and seamless updates.
 
-✅ Full Dynamic
+✅ Extensibility Through Plugins:
+APISIX boasts a rich set of plugins, extending its capabilities far beyond simple API routing. These plugins can handle authentication, security, monitoring, and various other API management needs. The plugin-oriented architecture also allows developers to write their plugins, making APISIX highly customizable
 
-    Hot Updates And Hot Plugins: Continuously updates its configurations and plugins without restarts!
-    Proxy Rewrite: Support rewrite the host, uri, schema, method, headers of the request before send to upstream.
-    Response Rewrite: Set customized response status code, body and header to the client.
-    Dynamic Load Balancing: Round-robin load balancing with weight.
-    Hash-based Load Balancing: Load balance with consistent hashing sessions.
-    Health Checks: Enable health check on the upstream nodes
-    Circuit-Breaker: Intelligent tracking of unhealthy upstream services.
-    Proxy Mirror: Provides the ability to mirror client requests.
-    Traffic Split: Allows users to incrementally direct percentages of traffic between various upstreams.
+✅ Multi-Protocol Support:
+Beyond HTTP/HTTPS, APISIX supports a variety of communication protocols, including WebSocket, gRPC, MQTT, and more. This makes it a versatile gateway solution for different types of applications and services.
 
-✅ Security
+✅ Security:
+Security is a top priority in APISIX. It offers numerous features to safeguard your APIs, such as IP filtering, dynamic SSL certificate handling, OAuth2, JWT authentication, and more, ensuring that your API endpoints are protected against unauthorized access.
 
-    Rich authentication & authorization support:
-        key-auth
-        JWT
-        basic-auth
-        wolf-rbac
-        casbin
-        keycloak
-        casdoor
-    IP Whitelist/Blacklist
-    Referer Whitelist/Blacklist
-    IdP: Support external Identity platforms, such as Auth0, okta, etc..
-    Limit-req
-    Limit-count
-    Limit-concurrency
-    Anti-ReDoS(Regular expression Denial of Service): Built-in policies to Anti ReDoS without configuration.
-    CORS Enable CORS(Cross-origin resource sharing) for your API.
-    URI Blocker: Block client request by URI.
-    Request Validator
-    CSRF Based on the Double Submit Cookie way, protect your API from CSRF attacks.
+✅ Cloud-Native:
+Designed for the cloud-native ecosystem, APISIX integrates seamlessly with Kubernetes, providing a powerful API gateway solution for microservices architectures. It supports service discovery and dynamic configuration in a cloud-native environment, making it ideal for modern application deployments.
 
 ```
 

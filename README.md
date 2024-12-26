@@ -1,4 +1,12 @@
 ## Apache APISIX - Cloud Native API Gateway
+<div align="center">
+    <picture>
+        <img src="https://github.com/user-attachments/assets/f40c8955-422a-499c-8199-a1dee6c2d854.png" width="500">
+    </picture>
+    <p>Apache APISIX - Cloud Native API Gateway</p>
+</div>
+
+
 ![0_jYj25BsFEbzd4MYx](https://github.com/user-attachments/assets/f40c8955-422a-499c-8199-a1dee6c2d854)
 
 ##
